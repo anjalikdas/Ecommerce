@@ -6,3 +6,5 @@ from Product import models as Pmodel
 
 class price(models.Model):
     product = models.ForeignKey(Pmodel.Product, on_delete=models.CASCADE)
+
+
